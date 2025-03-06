@@ -17,9 +17,9 @@ class Bike extends Vehicle {
 }
 public class Main {
     public static void main(String[] args) {
-        Vehicle myCar = new Car();
-        Vehicle myBike = new Bike();
-        myCar.start(); 
-        myBike.start(); 
+        Vehicle v1 = new Car();
+        Vehicle v2 = new Bike();
+        v1.start(); 
+        v2.start(); 
     }
 }
